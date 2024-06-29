@@ -1,0 +1,41 @@
+@charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@font-face{
+    font-family: 'Chopsic';
+    src: url('//fontes/Chopsic.otf'),format('opentype'); font-weight: normal;}
+ @font-face{
+        font-family: 'Irlanders';
+        src: url('//fontes/Inlanders\ Demo.otf'),format('opentype'); font-weight: normal;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --cor0:#070D0B;
+    --cor1:#1B260B;
+    --cor2:#30400D;
+    --cor3:#4A5911;
+    --cor4:#818C2A;
+    --cor5:#b2c239;
+
+   --fonte-padrão:"Oswald", sans-serif;
+   --fonte-principal:"Chopsic", Arial, sans-serif;
+   --fonte-especial: 'Irlanders';
+}
+header{
+    background:white url(/imagens/header.jpg) center no-repeat ;background-size:cover ;height: 200px;
+position: relative;}
+header picture{position:absolute;left: 600px; }
+header h1{
+    font-family:var(--fonte-padrão);font-style: oblique;text-align: center;padding: 20px;font-size: 1.5em;color: rgb(0, 0, 0);}
+
+nav{color: lightseagreen;}
+nav a{ text-decoration: none;color: rgb(0, 0, 0);font-family: var(--fonte-padrão);padding: 20px;}
+nav a:hover{ text-decoration: underline;color: var(--cor0);}
+main {background:var(--cor1) url(/imagens/Captura\ de\ tela\ 2024-06-28\ 222947.png) center bottom no-repeat fixed;
+    background-size: cover;}
+main h2{font-family: var(--fonte-padrão); text-align: center; background-color: #070d0bbe; }
+main p {font-family: var(--fonte-padrão);font-size:20px;padding: 50px;line-height: 40px; background-color: #0b271ec2;letter-spacing: 2px;
+    color: white; text-align: justify; text-indent: 30px;}
