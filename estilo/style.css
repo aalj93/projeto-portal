@@ -25,17 +25,16 @@
    --fonte-especial: 'Irlanders';
 }
 header{
-    background:white url(/imagens/header.jpg) center no-repeat ;background-size:cover ;height: 200px;
+    background:white url(/imagens/header.jpg) center no-repeat ;background-size:cover;background-attachment: fixed;height: 200px;
 position: relative;}
 header picture{position:absolute;left: 600px; }
 header h1{
     font-family:var(--fonte-padrão);font-style: oblique;text-align: center;padding: 20px;font-size: 1.5em;color: rgb(0, 0, 0);}
-
 nav{color: lightseagreen;}
 nav a{ text-decoration: none;color: rgb(0, 0, 0);font-family: var(--fonte-padrão);padding: 20px;}
 nav a:hover{ text-decoration: underline;color: var(--cor0);}
 main {background:var(--cor1) url(/imagens/Captura\ de\ tela\ 2024-06-28\ 222947.png) center bottom no-repeat fixed;
     background-size: cover;}
-main h2{font-family: var(--fonte-padrão); text-align: center; background-color: #070d0bbe; }
-main p {font-family: var(--fonte-padrão);font-size:20px;padding: 50px;line-height: 40px; background-color: #0b271ec2;letter-spacing: 2px;
-    color: white; text-align: justify; text-indent: 30px;}
+article h2{font-family: var(--fonte-padrão); text-align: center; letter-spacing: 2px;background-color: #d4d4d454; }
+article p{font-family: var(--fonte-padrão);font-size:20px;padding: 50px;line-height: 40px; background-color: #0b271ec2;letter-spacing: 2px;
+        color: white; text-align: justify; text-indent: 30px;}
